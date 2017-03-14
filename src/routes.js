@@ -8,7 +8,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
     .state('main', {
       url: '/',
-      component: 'technologies'
+      component: 'questions'
     })
     .state('questions', {
       url: '/questions',
