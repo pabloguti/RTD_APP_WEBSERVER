@@ -1,9 +1,9 @@
 var angular = require('angular');
 
-var hello = require('./app/main/hello');
-var questions = require('./app/questions/questions');
-var technologies = require('./app/technologies/technologies');
-var messages = require('./app/messages/messages');
+var hello = require('./app/hello');
+var questions = require('./app/questions');
+var technologies = require('./app/technologies');
+var messages = require('./app/messages');
 
 require('angular-ui-router');
 var routesConfig = require('./routes');
