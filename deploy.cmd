@@ -100,7 +100,7 @@ call :SelectNodeVersion
 :: 3. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install --production
+  call :ExecuteCmd !NPM_CMD! install
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
@@ -131,7 +131,7 @@ REM )
 :: 5. In deploy.cmd file include below lines of code after installing npm packages (after line 107)
 :: https://blogs.msdn.microsoft.com/azureossds/2015/10/22/using-gulp-in-node-js-azure-webapps/
 
-IF EXIST "Gulpfile.js" (
+IF EXIST "gulpfile.js" (
 pushd "%DEPLOYMENT_TARGET%"
 call .\node_modules\.bin\gulp build
 IF !ERRORLEVEL! NEQ 0 goto error

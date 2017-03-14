@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12580b36-d043-4bfb-a7bf-8a570f8f3d78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.deployment" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.cmd" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/main/hello.spec.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/main/hello.html" afterPath="$PROJECT_DIR$/src/app/hello.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/main/hello.js" afterPath="$PROJECT_DIR$/src/app/hello.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/messages/messages.html" afterPath="$PROJECT_DIR$/src/app/messages.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/messages/messages.js" afterPath="$PROJECT_DIR$/src/app/messages.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/questions/questions.html" afterPath="$PROJECT_DIR$/src/app/questions.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/questions/questions.js" afterPath="$PROJECT_DIR$/src/app/questions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/technologies/technologies.html" afterPath="$PROJECT_DIR$/src/app/technologies.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/technologies/technologies.js" afterPath="$PROJECT_DIR$/src/app/technologies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/webpack-dist.conf.js" afterPath="$PROJECT_DIR$/conf/webpack-dist.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy.cmd" afterPath="$PROJECT_DIR$/deploy.cmd" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,7 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.cmd" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="133" column="11" lean-forward="false" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -90,16 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/questions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -125,16 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -153,7 +128,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/.eslintrc.js" />
         <option value="$PROJECT_DIR$/.deployment" />
-        <option value="$PROJECT_DIR$/deploy.cmd" />
         <option value="$PROJECT_DIR$/conf/gulp.conf.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/app/messages.js" />
@@ -164,6 +138,7 @@
         <option value="$PROJECT_DIR$/conf/webpack-dist.conf.js" />
         <option value="$PROJECT_DIR$/src/app/hello.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/deploy.cmd" />
       </list>
     </option>
   </component>
@@ -380,12 +355,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489503920708</updated>
-      <workItem from="1489503922074" duration="4510000" />
+      <workItem from="1489503922074" duration="4978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4510000" />
+    <option name="totallyTimeSpent" value="4978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="23" width="1441" height="834" extended-state="6" />
@@ -509,22 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.deployment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -621,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp_tasks/misc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -637,10 +588,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.deployment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp_tasks/misc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="133" column="11" lean-forward="false" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
           <folding />
         </state>
       </provider>
