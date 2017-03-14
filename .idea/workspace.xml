@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12580b36-d043-4bfb-a7bf-8a570f8f3d78" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Footer.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Header.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/MainSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/MainSection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/MainSection.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoItem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoItem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoItem.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoTextInput.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoTextInput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/TodoTextInput.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/constants/TodoFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/constants/VisibilityFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/containers/App.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/containers/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/todos/todos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/todos/todos.spec.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.eslintrc.js" afterPath="$PROJECT_DIR$/src/.eslintrc.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,12 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintrc.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1489506327000" expanded="true" signature="17:119" ph="{...}" />
+                <marker date="1489506327000" expanded="true" signature="60:119" ph="{&quot;'linebreak-style: 0,&quot;: 'angular/no-service-method'...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +87,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/.eslintrc.js" />
       </list>
     </option>
   </component>
@@ -119,8 +108,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="44" />
+    <option name="x" value="110" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="834" />
   </component>
@@ -163,7 +152,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,15 +213,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489503920708</updated>
-      <workItem from="1489503922074" duration="567000" />
+      <workItem from="1489503922074" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="567000" />
+    <option name="totallyTimeSpent" value="1257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="44" width="1440" height="834" extended-state="0" />
+    <frame x="110" y="23" width="1440" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -258,11 +279,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulp_tasks/browsersync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp_tasks/karma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/browsersync-dist.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1489506327000" expanded="true" signature="17:119" ph="{...}" />
+            <marker date="1489506327000" expanded="true" signature="60:119" ph="{&quot;'linebreak-style: 0,&quot;: 'angular/no-service-method'...}" />
+          </folding>
         </state>
       </provider>
     </entry>

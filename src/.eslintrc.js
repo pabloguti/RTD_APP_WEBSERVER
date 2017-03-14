@@ -3,6 +3,7 @@ module.exports = {
     'angular'
   ],
   rules: {
+    'linebreak-style': 0,
     'angular/no-service-method': 0
   }
 }
