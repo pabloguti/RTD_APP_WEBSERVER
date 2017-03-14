@@ -144,6 +144,7 @@ body {
     min-height: 200px;
   }
   .button {
+    font-size: 14px;
     margin-top: 40px;
     background-color: #20B2AA;
     color: white;
@@ -156,8 +157,18 @@ body {
     padding: 10px 20px 10px 20px;
     border: solid #20B2AA 2px;
   }
+
+  .button:disabled {
+    background-color: #a9e0dd;
+    border-color: #b8e8e6;
+  }
 }
 .icon-ok-end {
   width: 40%;
   max-width: 90px;
+}
+
+.error-msg {
+  text-align: left;
+  color: red;
 }
