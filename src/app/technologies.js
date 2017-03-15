@@ -1,5 +1,6 @@
 module.exports = {
   template: require('./technologies.html'),
+  /** @ngInject */
   controller: function () {
     var io = require('socket.io-client')('http://localhost:9001', {reconnect: true});
     var socket = io.connect();
