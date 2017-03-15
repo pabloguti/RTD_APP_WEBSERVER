@@ -57,7 +57,7 @@ module.exports = {
       compress: {unused: true, dead_code: true, warnings: false} // eslint-disable-line camelcase
     }),
     new ExtractTextPlugin('index-[contenthash].css'),
-    new webpack.optimize.CommonsChunkPlugin({name: 'vendor'}),
+    //new webpack.optimize.CommonsChunkPlugin({name: 'vendor'}),
     new webpack.LoaderOptionsPlugin({
       options: {
         postcss: () => [autoprefixer]
@@ -70,6 +70,6 @@ module.exports = {
   },
   entry: {
     app: `./${conf.path.src('index')}`,
-    vendor: Object.keys(pkg.dependencies).filter(dep => ['todomvc-app-css'].indexOf(dep) === -1)
+    vendor: Object.keys(pkg.dependencies)
   }
 };

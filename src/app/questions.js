@@ -1,5 +1,6 @@
 module.exports = {
   template: require('./questions.html'),
+  /** @ngInject */
   controller: function ($http, $log) {
     this.callDone = false;
     this.update = function (user) {
