@@ -11,9 +11,6 @@ function HelloController() {
   this.check1 = null;
   this.check2 = null;
   this.showFirstPage = true;
-  this.goAhead = function () {
-    this.showFirstPage = false;
-  };
   this.selectOption = function (selection) {
     if (selection !== previousQuestion) {
       var dataToSend = {selection: selection, previous: previousQuestion};
@@ -28,5 +25,8 @@ function HelloController() {
       this.check1 = false;
       this.check2 = true;
     }
+  };
+  this.goAhead = function () {
+    this.showFirstPage = false;
   };
 }

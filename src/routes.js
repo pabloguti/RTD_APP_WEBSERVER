@@ -9,7 +9,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('main', {
       url: '/',
       component: 'questions'
-    })
+    });
     .state('questions', {
       url: '/questions',
       component: 'questions'
