@@ -5,7 +5,7 @@ module.exports = {
 
 /** @ngInject */
 function HelloController() {
-  var io = require('socket.io-client')('http://localhost:9001', {reconnect: true});
+  var io = require('socket.io-client')('http://rtdresults.azurewebsites.net/', {reconnect: true});
   var socket = io.connect();
   var previousQuestion;
   this.check1 = null;

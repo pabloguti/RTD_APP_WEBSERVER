@@ -2,7 +2,7 @@ module.exports = {
   template: require('./technologies.html'),
   /** @ngInject */
   controller: function () {
-    var io = require('socket.io-client')('http://localhost:9001', {reconnect: true});
+    var io = require('socket.io-client')('http://rtdresults.azurewebsites.net/', {reconnect: true});
     var socket = io.connect();
     var userId = Math.floor((Math.random() * 6) + 1);
     this.check1 = this.check2 = this.check3 = false;
