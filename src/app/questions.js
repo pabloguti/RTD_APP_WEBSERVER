@@ -5,11 +5,10 @@ module.exports = {
     this.callDone = false;
     this.update = function (user) {
       var data = {name: user.name, email: user.email, technical: user.technical};
-      $http.post('http://rtdapi.azurewebsites.net/api/users', data).then(function () {
-        $log.info('OK');
-        this.callDone = true;
+      this.callDone = $http.post('http://rtdapi.azurewebsites.net/api/users', data).then(function () {
+        return true;
       }, function () {
-        $log.info('KO');
+        return true;
       });
     };
   }
